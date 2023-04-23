@@ -1,0 +1,63 @@
+.card-body{
+    background-color: $backgroundHover;
+}
+.card-text,
+.card-title,
+.cardImg {
+  background: $backgroundCard;
+  color: $fontColor;
+}
+
+// .card:hover {
+//     background-color: $backgroundHover;
+// }
+.card-title:hover,
+.card-text:hover {
+  color: $fontColor2;
+}
+.lista {
+  background: $backgroundCard2;
+  color: $fontColor2;
+  text-decoration: none;
+}
+
+.lista:hover{
+    color: $fontOrange;
+}
+
+.titulo {
+  font-family: $fontFamiliTitle;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.titulo:hover {
+  transform: scale(1.6);
+  transition: 0.3s;
+  z-index: 1;
+  text-shadow:     -1px -1px 3px #999,
+  0 0 1px rgb(139, 56, 0),
+  1px 1px 1px rgb(255, 162, 0),
+  2px 2px 1px #949393,
+  3px 3px 1px #505050,
+  4px 4px 1px #363535;;
+}
+
+.cardImg:hover {
+  border-radius: 50%;
+//   -webkit-border-radius: 50%;
+//   box-shadow: 20px 20px 50px 50px red;
+//   -webkit-box-shadow: 0px 0px 15px 15px $fontYellow;
+filter:
+drop-shadow(1px 1px 10px red)
+drop-shadow(3px 3px 20px orange)
+drop-shadow(6px 6px 50px gold);
+}
+
+.card-img-top:hover{
+    transform: matrix3d(1, 0, 1, 0, 0, 1, 0.5, 0, 0, 0, 1, 0, 50, 50, 0, 1);
+}
+body {
+  background-image: url(/assets/img/fondo.png);
+}

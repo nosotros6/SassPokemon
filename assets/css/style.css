@@ -1,0 +1,54 @@
+.card-body {
+  background-color: linear-gradient(#84D2C5, #576CBC, #161E54);
+}
+
+.card-text,
+.card-title,
+.cardImg {
+  background: linear-gradient(#161E54, #576CBC, #84D2C5);
+  color: white;
+}
+
+.card-title:hover,
+.card-text:hover {
+  color: #161E54;
+}
+
+.lista {
+  background: #84D2C5;
+  color: #161E54;
+  text-decoration: none;
+}
+
+.lista:hover {
+  color: rgb(255, 89, 0);
+}
+
+.titulo {
+  font-family: "Sedgwick Ave Display", cursive;
+  font-size: 80px;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.titulo:hover {
+  transform: scale(1.6);
+  transition: 0.3s;
+  z-index: 1;
+  text-shadow: -1px -1px 3px #999, 0 0 1px rgb(139, 56, 0), 1px 1px 1px rgb(255, 162, 0), 2px 2px 1px #949393, 3px 3px 1px #505050, 4px 4px 1px #363535;
+}
+
+.cardImg:hover {
+  border-radius: 50%;
+  filter: drop-shadow(1px 1px 10px red) drop-shadow(3px 3px 20px orange) drop-shadow(6px 6px 50px gold);
+}
+
+.card-img-top:hover {
+  transform: matrix3d(1, 0, 1, 0, 0, 1, 0.5, 0, 0, 0, 1, 0, 50, 50, 0, 1);
+}
+
+body {
+  background-image: url(/assets/img/fondo.png);
+}
+
+/*# sourceMappingURL=style.css.map */
